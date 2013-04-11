@@ -258,6 +258,7 @@
                                                 </textView>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jJ3-sZ-jsB">
                                                     <constraints>
+                                                        <constraint firstAttribute="height" constant="38" id="bcq-Tl-pwo"/>
                                                         <constraint firstAttribute="width" constant="51" id="wop-f1-ZU5"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -277,13 +278,12 @@
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
                                         <constraints>
-                                            <constraint firstItem="3mV-5p-KuY" firstAttribute="top" secondItem="jJ3-sZ-jsB" secondAttribute="top" type="default" id="44Z-c3-MEL"/>
                                             <constraint firstItem="QOD-iJ-47m" firstAttribute="leading" secondItem="YPz-B0-oA6" secondAttribute="leading" constant="85" id="EqG-wu-fd6"/>
-                                            <constraint firstItem="3mV-5p-KuY" firstAttribute="bottom" secondItem="jJ3-sZ-jsB" secondAttribute="bottom" type="default" id="Fgw-9t-TpU"/>
                                             <constraint firstItem="V9X-mz-tdK" firstAttribute="top" secondItem="QOD-iJ-47m" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="O7N-Xy-DMP"/>
                                             <constraint firstItem="3mV-5p-KuY" firstAttribute="top" secondItem="YPz-B0-oA6" secondAttribute="top" constant="11" id="OEb-2Y-kHj"/>
                                             <constraint firstItem="QOD-iJ-47m" firstAttribute="top" secondItem="YPz-B0-oA6" secondAttribute="top" type="default" id="SDG-yo-vvo"/>
                                             <constraint firstItem="3mV-5p-KuY" firstAttribute="leading" secondItem="YPz-B0-oA6" secondAttribute="leading" constant="20" type="default" id="Zan-X4-Lp8"/>
+                                            <constraint firstItem="jJ3-sZ-jsB" firstAttribute="top" secondItem="YPz-B0-oA6" secondAttribute="top" constant="10" id="aHk-By-R79"/>
                                             <constraint firstAttribute="trailing" secondItem="jJ3-sZ-jsB" secondAttribute="trailing" constant="8" id="eqs-yH-e7a"/>
                                             <constraint firstItem="V9X-mz-tdK" firstAttribute="leading" secondItem="QOD-iJ-47m" secondAttribute="leading" type="default" id="iuK-WA-iuU"/>
                                         </constraints>
